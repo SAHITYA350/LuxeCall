@@ -9,5 +9,14 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    
+    <!-- Add this script as fallback -->
+    <script>
+      // Fallback for SPA routing
+      if (window.location.pathname !== '/' && !window.location.pathname.includes('.')) {
+        window.history.replaceState(null, '', '/#' + window.location.pathname);
+        window.location.reload();
+      }
+    </script>
   </body>
 </html>
