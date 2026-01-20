@@ -18,9 +18,9 @@ const VideoRoom = () => {
     const initMeeting = async () => {
       if (!containerRef.current) return;
 
-      // Replace with your actual credentials
-      const appID = 1740476576;
-      const serverSecret = "edcfd6ed96b485b4994b9e951e8774d2";
+      // place with your actual credentials
+      const appID = ;
+      const serverSecret = "";
       
       const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
         appID, 
