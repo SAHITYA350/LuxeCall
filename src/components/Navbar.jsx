@@ -51,7 +51,7 @@ const Navbar = () => {
           <div className="px-4 py-4 space-y-4">
             <button 
               onClick={() => { navigate('/'); setIsOpen(false); }} 
-              className="block w-full text-left text-gray-300 hover:text-white py-2"
+              className="block w-full cursor-pointer text-left text-gray-300 hover:text-white py-2"
             >
               Home
             </button>
