@@ -19,8 +19,8 @@ const VideoRoom = () => {
       if (!containerRef.current) return;
 
       // place with your actual credentials
-      const appID = ;
-      const serverSecret = "";
+      const appID = 1740476576;
+      const serverSecret = "edcfd6ed96b485b4994b9e951e8774d2";
       
       const kitToken = ZegoUIKitPrebuilt.generateKitTokenForTest(
         appID, 
