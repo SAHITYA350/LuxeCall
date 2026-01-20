@@ -53,7 +53,7 @@ const Home = () => {
               className="w-full sm:flex-1 px-6 py-4 bg-white/5 border border-white/20 rounded-xl text-white placeholder-gray-500 focus:outline-none focus:border-amber-400/50 focus:bg-white/10 transition"
               onChange={(e) => setInput(e.target.value)}
               value={input}
-              onKeyPress={(e) => e.key === 'Enter' && handleJoin()}
+              onKeyDown={(e) => e.key === 'Enter' && handleJoin()}
             />
             <button
               onClick={handleJoin}
