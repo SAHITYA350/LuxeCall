@@ -1,4 +1,6 @@
 # 📞 LuxeCall – Real-Time Video & Voice Calling App
+<img width="1916" height="926" alt="image" src="https://github.com/user-attachments/assets/afcacdff-349e-4580-8e29-ce2a842d1b98" />
+
 
 LuxeCall is a modern real-time video and voice calling application powered by **ZEGOCLOUD**, built for fast, secure, and scalable communication. It supports one-to-one and group calls with low latency and high reliability.
 
